@@ -1,0 +1,20 @@
+Domande 0.0.0.1
+1.	Cos’è la Angular CLI?
+    Angular CLI è un tool che ci permette di sviluppare applicazioni Angular.
+2.	Cos’è gitpod?
+    Gitpod è un ambiente di sviluppo on line basato sull’editor visual studio code.
+3.	Come posso vedere l’elenco dei repository remoti?
+
+4.	Qual è il comando per creare una nuova applicazione angular?
+    ng new nome-app
+
+Domande 00.1
+1.	Qual è il comando per installare la angular cli?
+    npm i –g @angular/cli
+2.	Cosa contiene la pagina index.html?
+    Dei codici già generati.
+3.	Cos’è l’app-root?
+    app-root è un componente definito dalla nostra applicazione Angular. 
+    In Angular possiamo definire i nostri tag HTML e assegnargli funzionalità personalizzate. Il tag app-root sarà il "punto di ingresso" per la nostra applicazione sulla pagina.
+4.	Come si avvia un progetto angular?
+    ng serve
