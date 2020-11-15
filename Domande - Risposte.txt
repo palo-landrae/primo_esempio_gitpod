@@ -4,7 +4,7 @@ Domande 0.0.0.1
 2.	Cos’è gitpod?
     Gitpod è un ambiente di sviluppo on line basato sull’editor visual studio code.
 3.	Come posso vedere l’elenco dei repository remoti?
-
+    git remote -v
 4.	Qual è il comando per creare una nuova applicazione angular?
     ng new nome-app
 
@@ -18,3 +18,41 @@ Domande 00.1
     In Angular possiamo definire i nostri tag HTML e assegnargli funzionalità personalizzate. Il tag app-root sarà il "punto di ingresso" per la nostra applicazione sulla pagina.
 4.	Come si avvia un progetto angular?
     ng serve
+
+1.  Come si crea un nuovo componente?
+    ng generate component {{componente}} (es. hello-world)
+2.  A cosa serve il codice import?
+    serve per dichiarare le dipendenze
+3.  A cosa serve i decoratore @Component?
+    Usando @Component sulla classe che abbiamo generato, “rendiamo” la classe un componente.
+    a.  A cosa serve specificare il templateUrl?
+        Per dire ad Angular di copiare il codice che trova nel file specificato ogni volta che viene scritto il tag del <selector: >.
+    b.  Lo styleUrl?
+        Per caricare il foglio di stile.
+    c.  Il selector?
+        Specificando il selector possiamo usare il componente come un tag HTML.
+4.  Come si aggiunge un nuovo componente all’app component?
+    Aggiungiamo il tag del selector a app.component.html
+5.  Scrivi sul quaderno uno schema che contenga il codice di un componente  e di tutti i file a cui fa riferimento
+
+6.  A cosa serve il simbolo {{ }} nel template html
+    Ti permette di incorporare stringhe già assegnate dall'utente.
+7.  Cos’è un Controller?
+    I controller controllano i dati delle applicazioni Angular.
+8.  Da cosa è composta un’applicazione Angular?
+
+9.  Descrivi le funzionalità riassunte nella seguente immagine (descrivi ogni rettangolo)
+
+10. Qual è la convenzione per la nomenclatura dei seguenti file che costituiscono un componente.
+
+Domande 01.1
+1.  Come si dichiara una proprietà di una classe (variabile visibile a tutta la classe) in Angular?
+    Impostando il tipo della proprietà ed assegnandoli un valore.
+2.  Come si dichiara un costruttore?
+    Per dichiarare un costruttore di una classe bisogna definirlo con lo stesso nome della classe accompagnato da parentesi.
+3.  Cos’è un costruttore?
+    Un costruttore è una funzione che viene chiamata ogni volta che creiamo nuove istanze di questa classe.
+4.  Secondo te, quando viene creata l’istanza di una classe Angular?
+    Quando chiamiamo il costruttore della classe.
+5.  Come si aggiunge una proprietà (o variabile) al template HTML?
+    Usando due parentesi graffe {{}}. 
